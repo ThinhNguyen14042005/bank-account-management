@@ -1,11 +1,15 @@
 # Bank Account Management System
 
+## Author
+
+**Nguyễn Gia Thịnh**
+
+**Student ID:** 2574801030066
+
 ## Giới thiệu
 
 Đây là chương trình quản lý tài khoản ngân hàng đơn giản được xây dựng bằng ngôn ngữ C++ theo mô hình lập trình hướng đối tượng (OOP).
-
 Chương trình cho phép:
-
 * Tạo tài khoản mới
 * Nạp tiền vào tài khoản
 * Rút tiền từ tài khoản
@@ -13,11 +17,8 @@ Chương trình cho phép:
 * Tìm kiếm tài khoản theo số tài khoản
 * Hiển thị danh sách tất cả tài khoản
 * Khóa và xóa tài khoản nếu thực hiện giao dịch sai quá 5 lần
-
 ---
-
 ## Cấu trúc thư mục
-
 ```text
 bank-account-management/
 ├── README.md
@@ -27,31 +28,24 @@ bank-account-management/
 │   └── BankAccount.cpp
 └── .gitignore
 ```
-
 ---
-
 ## Giải thích các file
 
 ### 1. BankAccount.h
-
 Đây là file khai báo lớp (Class Declaration).
-
 Chứa:
-
 * Các thuộc tính của tài khoản:
 
   * Số tài khoản
   * Tên chủ tài khoản
   * Số dư
   * Số lần giao dịch sai
-
 * Các hàm thành viên:
 
   * Nạp tiền
   * Rút tiền
   * Hiển thị thông tin
   * Kiểm tra khóa tài khoản
-
 File này đóng vai trò là "bản thiết kế" của đối tượng BankAccount.
 
 ---
